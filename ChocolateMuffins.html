@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chocolate Muffins</title>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+    <tr style= "text-align:center";>
+      <td>
+        <div class="image-container">
+            <img src="chocolate muffins.jpeg" alt="Chocolate Muffins">
+        </div>
+      </td>
+    </tr>
+    <tr style= "text-align:center";>
+        <td>
+            <h1>Classic Chocolate Muffins</h1>
+        </td>
+    </tr>
+    <tr style= "text-align:center";>
+        <!-- Input for the number of servings -->
+        <td>
+            <label for="quantity">Servings Quantity:</label>
+            <input type="number" id="quantity" min="1">
+            <button onclick="calculateIngredients()">Calculate</button>
+        <hr>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <!-- Lists for displaying ingredients -->
+        <h2>Ingredients</h2>
+        <ul id="ingredients">
+            <li>All-purpose flour: </li>
+            <li>Unsweetened cocoa powder: </li>
+            <li>Baking powder: </li>
+            <li>Baking soda: </li>
+            <li>Salt: </li>
+            <li>Granulated sugar: </li>
+            <li>Brown sugar, packed: </li>
+            <li>Eggs: </li>
+            <li>Milk: </li>
+            <li>Unsalted butter, melted: </li>
+            <li>Vanilla extract: </li>
+            <li>Semi-sweet chocolate chips: </li>
+        </ul>
+        <h2>Directions</h2>
+        <ul id="directions">
+            <ol>
+                <li>Preheat the oven to 350°F (175°C) and line a muffin tin with paper liners.</li>
+                <li>In a large bowl, whisk together the flour, cocoa powder, baking powder, baking soda, and salt.</li>
+                <li>In another bowl, mix the sugars, eggs, milk, melted butter, and vanilla extract until smooth.</li>
+                <li>Gradually fold the wet ingredients into the dry ingredients until just combined.</li>
+                <li>Gently stir in the chocolate chips.</li>
+                <li>Divide the batter evenly into the muffin tin, filling each cup about 2/3 full.</li>
+                <li>Bake for 18-20 minutes, or until a toothpick comes out clean when inserted into the center of a muffin.</li>
+                <li>Let the muffins cool in the pan for 5 minutes, then transfer to a wire rack to cool completely.</li>
+            </ol>
+        </ul>
+        </td>
+    </tr>
+    </table>
+    <!-- links -->
+    <div style="text-align: center;">
+        <a href="recipes.html"><button>Back to Menu Recipes</button></a>
+        <a href="index.html"><button>Homepage</button></a>
+    </div>
+</body>
+</html>

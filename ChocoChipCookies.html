@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Classic Chocolate Chip Cookies</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+    <tr style= "text-align:center";>
+      <td>
+        <div class="image-container">
+            <img src="chocolate chip.jpeg" alt="Chocolate Chip Cookies">
+        </div>
+      </td>
+    </tr>
+    <tr style= "text-align:center";>
+        <td>
+            <h1>Classic Chocolate Chip Cookies</h1>
+        </td>
+    </tr>
+    <tr style= "text-align:center";>
+        <!-- Input for the number of servings -->
+        <td>
+            <label for="quantity">Servings Quantity:</label>
+            <input type="number" id="quantity" min="1">
+            <button onclick="calculateIngredients()">Calculate</button>
+        <hr>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <!-- Lists for displaying ingredients -->
+        <h2>Ingredients</h2>
+        <ul id="ingredients">
+            <li>Unsalted butter, softened: </li>
+            <li>Granulated sugar: </li>
+            <li>Packed brown sugar: </li>
+            <li>Eggs: </li>
+            <li>Vanilla extract: </li>
+            <li>All-purpose flour: </li>
+            <li>Baking soda: </li>
+            <li>Salt: </li>
+            <li>Semi-sweet chocolate chips: </li>
+        </ul>
+        <h2>Directions</h2>
+        <ul id="directions">
+            <ol>
+                <li>Preheat the oven to 375°F (190°C).</li>
+                <li>In a large bowl, cream together the butter, granulated sugar, and brown sugar until light and fluffy.</li>
+                <li>Beat in the eggs one at a time, then stir in the vanilla extract.</li>
+                <li>In a separate bowl, combine the flour, baking soda, and salt.</li>
+                <li>Gradually add the dry ingredients to the wet ingredients and mix until just combined.</li>
+                <li>Fold in the chocolate chips.</li>
+                <li>Drop tablespoon-sized dough balls onto an ungreased baking sheet.</li>
+                <li>Bake for 8-10 minutes, or until the edges are golden brown.</li>
+                <li>Cool on the baking sheet for 5 minutes before transferring to a wire rack to cool completely.</li>
+            </ol>
+        </ul>
+        </td>
+    </tr>
+    </table>
+    <!-- links -->
+    <div style="text-align: center;">
+        <a href="recipes.html"><button>Back to Menu Recipes</button></a>
+        <a href="index.html"><button>Homepage</button></a>
+    </div>
+</body>
+</html>

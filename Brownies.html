@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Brownies</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+    <tr style= "text-align:center";>
+      <td>
+        <div class="image-container">
+            <img src="caramelbrownies.jpg" alt="Caramel Brownies">
+        </div>
+      </td>
+    </tr>
+    <tr style= "text-align:center";>
+        <td>
+            <h1>Caramel Brownies</h1>
+        </td>
+    </tr>
+    <tr style= "text-align:center";>
+        <!-- Input for the number of servings -->
+        <td>
+            <label for="quantity">Servings Quantity:</label>
+            <input type="number" id="quantity" min="1">
+            <button onclick="calculateIngredients()">Calculate</button>
+        <hr>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <!-- Lists for displaying ingredients -->
+        <h2>Ingredients</h2>
+        <ul id="ingredients">
+            <li>Unsalted butter: </li>
+            <li>Granulated sugar: </li>
+            <li>Eggs: </li>
+            <li>Vanilla extract: </li>
+            <li>All-purpose flour: </li>
+            <li>Unsweetened cocoa powder: </li>
+            <li>Salt: </li>
+            <li>Baking powder: </li>
+        </ul>
+        <h2>Directions</h2>
+        <ul id="directions">
+            <ol>
+                <li>Preheat the oven to 350°F (180°C).</li>
+                <li>In a medium saucepan, melt the butter and sugar.</li>
+                <li>Remove the saucepan from the heat and let it cool for a few minutes.</li>
+                <li>Add the eggs one at a time, stirring well after each addition.</li>
+                <li>Stir in the vanilla extract.</li>
+                <li>In a separate bowl, whisk together the flour, cocoa powder, salt, and baking powder.</li>
+                <li>Gradually mix the dry ingredients into the wet mixture until just combined.</li>
+                <li>Pour the batter into the prepared baking pan and smooth.</li>
+                <li>Bake for 20-25 minutes.</li>
+                <li>Allow the brownies to cool in the pan for 10-15 minutes before transferring them to a wire rack to cool completely.</li>
+            </ol>
+        </ul>
+        </td>
+    </tr>
+    </table>
+    <!-- links -->
+    <div style="text-align: center;">
+        <a href="recipes.html"><button>Back to Menu Recipes</button></a>
+        <a href="index.html"><button>Homepage</button></a>
+    </div>
+</body>
+</html>
